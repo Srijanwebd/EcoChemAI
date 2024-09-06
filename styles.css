@@ -1,0 +1,101 @@
+html {
+  scroll-behavior: smooth;
+  min-height: 100vh;
+}
+
+body {
+  min-height: 100vh;
+}
+
+/* to make the cover photo go behind the main text */
+#cover-page {
+  background-image: url("./photos/Oil\ and\ Gas\ Art\ Paintings\ _\ Art\ Gallery\ of\ Greg\ Evans.jpeg");
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh; /* Makes sure the section covers the whole viewport */
+}
+
+.cover-container {
+  position: relative;
+  z-index: 1; /* Ensures the content stays above the background */
+  color: white; /* Text color for visibility */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.6
+  ); /* Optional: Add a semi-transparent background for better readability */
+}
+
+/* header */
+
+/* company abbreviation */
+
+.abbreviation {
+  margin-left: 20px;
+}
+
+/* nav-link header */
+
+.nav-link {
+  color: white;
+}
+
+/* main section */
+.main-text {
+  margin-top: 250px;
+  line-height: 1.5;
+}
+
+.main-heading {
+  margin-bottom: 50px;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 60px;
+}
+
+.main-paragraph {
+  margin-bottom: 20px;
+}
+
+/* SVG ICONS */
+
+.feature-icon-small {
+  padding: 5px;
+  margin-right: 5px;
+}
+
+#features,
+#footer {
+  margin-top: 20px;
+}
+
+#footer {
+  background: linear-gradient(300deg, #054bed, #e26a0f, #e4d3ef);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.links {
+  margin-left: 50px;
+}
+
+p,
+h3 {
+  text-align: left;
+}
