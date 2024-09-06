@@ -9,7 +9,7 @@ body {
 
 /* to make the cover photo go behind the main text */
 #cover-page {
-  background-image: url("./photos/Oil\ and\ Gas\ Art\ Paintings\ _\ Art\ Gallery\ of\ Greg\ Evans.jpeg");
+  background-image: url("Oil and Gas Art Paintings _ Art Gallery of Greg Evans.jpeg");
   background-size: cover; /* Ensures the image covers the entire background */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
